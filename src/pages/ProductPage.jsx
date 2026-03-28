@@ -1,7 +1,7 @@
 // src/pages/ProductPage.jsx
 import { useParams } from "react-router-dom";
 import { useState } from "react";
-import useFetch from "../hooks/useFetch";
+import useFetch from '../hooks/useFetch';
 import { useCart } from "../context/CartContext";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
