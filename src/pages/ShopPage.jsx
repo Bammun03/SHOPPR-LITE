@@ -1,7 +1,7 @@
 import { useState, useMemo } from "react";
 import { Link } from "react-router-dom";
 import { useCart } from "../context/CartContext";
-import useFetch from "../hooks/useFetch";
+import useFetch from "../Hooks/useFetch";
 import styles from "../styles/Shop.module.css";
 import { toast } from "react-toastify";
 
