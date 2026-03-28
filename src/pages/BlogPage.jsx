@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import useFetch from '../hooks/useFetch';
-import { API_BASE } from '../utils/constants';
+import { API_BASE } from "../utils/constants";
 import Loader from '../components/Loader';
 
 export default function BlogPage() {
